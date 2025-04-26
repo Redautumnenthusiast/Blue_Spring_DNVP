@@ -10,12 +10,12 @@ max-visits: 5
 
 = Stahlhelm
 
-*Der Stalhelm* is a paramilitary that was formed after the terrible defeat in the First World War as an association dedicated to preserving the camaraderie and sacrifice of German frontline soldiers. It is mainly associated with our party, the DNVP, but it also has individual members participating in it from other right wing parties like us.
+*Der Stahlhelm* is a paramilitary that was formed after the terrible defeat in the First World War as an association dedicated to preserving the camaraderie and sacrifice of German frontline soldiers. It is mainly associated with our party, the DNVP, but it also has individual members participating in it from other right wing parties like us.
 
 - @militant: Fund more military-style training and equipment for the Stahlhelm.
 - @militant_2: Use our existing resources to support more training for the Stahlhelm.
 - @same: Keep the Stahlhelm as it is.
-- @cut_sh: Cut funding for the Reichsbanner.
+- @cut_sh: Cut funding for the Stahlhelm.
 - @easy_discard
 - @cancel_advisor_action
 
