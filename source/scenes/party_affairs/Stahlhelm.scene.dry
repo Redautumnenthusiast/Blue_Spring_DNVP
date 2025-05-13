@@ -29,7 +29,7 @@ We have increased funding for the Stahlhelm.
 
 @militant_2
 view-if: funded_stahlhelm >= 1
-on-arrival: sh_strength += 10; sh_militancy += 0.02; funded_stahlhelm -= 1
+on-arrival: sh_militancy += 0.02; funded_stahlhelm -= 1
 
 As we have already funded resources towards the Stahlhelm, we can invest in building up their militancy.
 
