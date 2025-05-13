@@ -23,7 +23,7 @@ max-visits: 5
 choose-if: resources >= sh_militarization_cost
 unavailable-subtitle: Not enough resources ([+ sh_militarization_cost +] needed).
 subtitle: -[+ sh_militarization_cost +] resources
-on-arrival: resources -= sh_militarization_cost; sh_investment += 1; sh_strength += 100; sh_militancy += 0.05; old_middle_dnvp += 2*(1-dissent); unemployed_dnvp += 2*(1-dissent); 
+on-arrival: resources -= sh_militarization_cost; sh_investment += 1; sh_strength += 50; sh_militancy += 0.05; old_middle_dnvp += 2*(1-dissent); unemployed_dnvp += 2*(1-dissent); 
 
 We have increased funding for the Stahlhelm.
 
@@ -43,6 +43,6 @@ The Stahlhelm is already serving the purpose it needs to serve. There is no reas
 
 @cut_sh
 subtitle: +1 resources
-on-arrival: resources += 1; sh_strength -= 100; sh_militancy -= 0.05; stahlhelm_strength -= 2; stahlhelm_dissent += 2; old_middle_nsdap += 1; new_middle_nsdap += 1; unemployed_nsdap += 1
+on-arrival: resources += 1; sh_strength -= 50; sh_militancy -= 0.05; stahlhelm_strength -= 2; stahlhelm_dissent += 2; old_middle_nsdap += 1; new_middle_nsdap += 1; unemployed_nsdap += 1
 
 Cutting resources to the Stahlhelm causes a drop in the membership, and leads some would-be members to join the Nazis instead.
