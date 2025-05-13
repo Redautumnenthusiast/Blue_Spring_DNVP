@@ -24,7 +24,7 @@ Whether or not we are in an electoral campaign, the party is always trying to br
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: workers_dnvp += 2*(1-dissent); workers_dnvp -= 1 if unemployed >= 25; 
+on-arrival: workers_dnvp += 2*(1-dissent); workers_dnvp -= 1 if unemployed >= 25; resources -=1;  workers_dnvp += 3 if dnvp_party_leader = "Lambach"
 
 We have increased our campaigning among the workers. [? if unemployed >= 15: The high levels of unemployment make our campaign more difficult. ?]
 
@@ -32,7 +32,7 @@ We have increased our campaigning among the workers. [? if unemployed >= 15: The
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: new_middle_dnvp += 6*(1-dissent); resources -= 1; 
+on-arrival: new_middle_dnvp += 5*(1-dissent); resources -= 1; 
 
 We have increased our campaigning among the new middle class. 
 
@@ -40,7 +40,7 @@ We have increased our campaigning among the new middle class.
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: old_middle_dnvp += 7*(1-dissent); resources -= 1; 
+on-arrival: old_middle_dnvp += 6*(1-dissent); resources -= 1; 
 
 We have increased our campaigning among the old middle class. 
 
@@ -48,7 +48,7 @@ We have increased our campaigning among the old middle class.
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: rural_dnvp += 8*(1-dissent); rural_spd -= 1; resources -= 1; 
+on-arrival: rural_dnvp += 7*(1-dissent); rural_spd -= 1; resources -= 1; 
 
 We have increased our campaigning among farmers. 
 
