@@ -42,6 +42,6 @@ on-arrival: enemies = "KPD"; hugenburgist_strength += 5; kpd_relation -= 15; dvp
 Attacking the KPD is supported by all in our party.
 
 @bourgeois
-on-arrival: enemies = "bourgeois parties"; hugenburgist_strength += 8; christian_socialist_dissent += 7; young_conservative_dissent += 9;  dvp_relation -= 8; z_relation -= 6; coalition_dissent += 3
+on-arrival: enemies = "bourgeois parties"; hugenburgist_strength += 8; christian_socialist_dissent += 7; young_conservative_dissent += 9;  dvp_relation -= 8; z_relation -= 6; coalition_dissent += 3; new_middle_dnvp -= 5; old_middle_dnvp -= 5
 
 Hello Hugenburgist. You are stupid.
